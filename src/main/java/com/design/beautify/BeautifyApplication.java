@@ -1,13 +1,13 @@
-package com.design.besutify;
+package com.design.beautify;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class BesutifyApplication {
+public class BeautifyApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(BesutifyApplication.class, args);
+		SpringApplication.run(BeautifyApplication.class, args);
 	}
 
 }
