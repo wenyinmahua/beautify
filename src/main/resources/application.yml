@@ -1,1 +1,16 @@
-spring.application.name=besutify
+spring:
+  application:
+    name: beautify
+  profiles:
+    active: dev
+  datasource:
+    url:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username:
+    password:
+server:
+  servlet:
+    context-path: /${spring.application.name}
+
+
+
